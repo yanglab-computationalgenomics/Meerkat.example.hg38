@@ -1,0 +1,38 @@
+warning: cannot open reagroup blacklist 'null'
+Options:
+   input BAM: ../mapping/example.sorted.bam
+   prefix: ../mapping/example
+   generating blacklist: coverage >= 500 reads
+   max insert size: 1000 bases
+   soft clip threshold: 35 bases
+   fragment size: 20 bases
+   insert size samples: 10000 reads
+   blacklisted read groups: 
+   trim reads: 15
+   max N bps per read: 5
+   output files: 
+      ../mapping/example.unmapped.fq.gz
+      ../mapping/example.softclips.fq.gz
+      ../mapping/example.isinfo
+      ../mapping/example.unmapped.rdist
+      ../mapping/example.softclips.rdist
+      ../mapping/example.sr.1.fq.gz
+      ../mapping/example.sr.2.fq.gz
+      ../mapping/example.blacklist.gz
+      ../mapping/example/ (directory)
+Forcing immediate execution.
+../mapping/example.sorted.bam: 
+   10000000 reads
+   5111804 unaligned
+   4675 clipped (4675 hashed)
+   75 bps in the longest read
+   Quality string info:
+      quality score range: [104, 104]
+      Sanger                   [33, 126]
+      Solexa/Illumina 1.0      [59, 126]
+      Illumina 1.3             [64, 126]
+    * Illumina 1.5             [66, 126]
+Final read counts after rejection due to quality (-q 15 -m 70):
+   unmapped reads: 5111804 (0 rejected)
+   clipped reads:  4675 (0 rejected)
+Readgroup [none]: 10000000 reads

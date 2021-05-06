@@ -1,0 +1,60 @@
+warning: cannot open reagroup blacklist 'null'
+Options:
+   input BAM: example.sorted.bam
+   insert file: example.isinfo
+      none: median 200, stdev 20.3091
+   blacklist file: example.blacklist.gz
+      1 chromosomes present in blacklist
+      1 blacklisted positions
+   ignoring read groups: 
+   output file: example.disc.bam
+   PCR dup filter: true
+   PCR duplicate file: example.dup.bam
+   using PCR dup flag: false
+   n stdevs: 3
+Forcing immediate execution.
+Memorizing clipped discordant reads...
+recorded 1 clipped discordant read IDs in memory
+Starting final file scan...
+Finished file scan.
+example.sorted.bam: 10000000 reads read
+example.blacklist.gz: rejected 0 discordant pairs
+example.disc.bam: 10682 reads written
+   not paired:             0
+   not both mapped:        5116100
+   not same chrom:         2390
+   not diff strand:        2062
+   weird insert size:      390
+   big insert size:        5844
+   mates map to same posn: 0
+discarded 4 PCR duplicates
+warning: cannot open reagroup blacklist 'null'
+Options:
+   input BAM: example.cl.sorted.bam
+   insert file: example.isinfo
+      none: median 200, stdev 20.3091
+   blacklist file: example.blacklist.gz
+      1 chromosomes present in blacklist
+      1 blacklisted positions
+   ignoring read groups: 
+   output file: example.cl.disc.bam
+   PCR dup filter: true
+   PCR duplicate file: example.cl.dup.bam
+   using PCR dup flag: false
+   n stdevs: 3
+Forcing immediate execution.
+Memorizing clipped discordant reads...
+recorded 136 clipped discordant read IDs in memory
+Starting final file scan...
+Finished file scan.
+example.cl.sorted.bam: 11216 reads read
+example.blacklist.gz: rejected 0 discordant pairs
+example.cl.disc.bam: 5540 reads written
+   not paired:             0
+   not both mapped:        3152
+   not same chrom:         1974
+   not diff strand:        2090
+   weird insert size:      330
+   big insert size:        1162
+   mates map to same posn: 0
+discarded 16 PCR duplicates
